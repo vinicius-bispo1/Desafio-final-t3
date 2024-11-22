@@ -1,0 +1,57 @@
+
+header{
+    
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #001B2F 0%, #005695 100%);
+
+}
+.boxLogo{
+   
+   width: 23vw;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   h1{
+    color: white;
+    font-size: 25px;
+   }
+}
+
+.boxMenu{
+   
+    width: 35vw;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a{
+            color: white;
+            font-size: 20px;
+        }
+    }
+}
+
+.boxInput{
+    border: solid 2px white;
+    width: 17vw;
+    margin-right: 20px;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    input{
+        outline: none;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 15px;
+        padding-left: 6px;
+        &::placeholder{
+            color: white;
+        }
+    }
+}
