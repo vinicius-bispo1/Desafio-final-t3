@@ -1,0 +1,33 @@
+
+.principal{
+    border: solid 2px red;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border: solid 2px green; 
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    form{
+        border: solid 2px #005695;
+        width: 25vw;
+        height: 60vh;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        div{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: #005695;
+        }
+    }
+}
+
