@@ -9,7 +9,6 @@ header{
 
 }
 .boxLogo{
-   
    width: 23vw;
    display: flex;
    align-items: center;
@@ -27,9 +26,9 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        font-size: 20px;
         a{
             color: white;
-            font-size: 20px;
         }
     }
 }
@@ -50,8 +49,68 @@ header{
         color: white;
         font-size: 15px;
         padding-left: 6px;
+        width: 12vw;
         &::placeholder{
             color: white;
+        }
+    }
+}
+
+@media(max-width: 1170px){
+
+    .boxLogo{
+        // border: solid 2px red;
+        width: 25vw;
+        h1{
+            font-size: 2vw;
+        }
+        img{
+            width: 5vw;
+        }
+    }
+    .boxInput{
+        input{
+            &::placeholder{
+                font-size: 1.1vw;
+            }
+        }      
+    }
+
+   .boxMenu{
+    // border: solid 2px yellow;
+    ul{
+    font-size: 1.6vw;
+    }
+   } 
+
+}
+
+@media(max-width: 780px){
+    header{
+        flex-direction: column;
+        height: 25vh;
+        justify-content: space-evenly;
+    }
+
+    .boxInput{
+        display: none;
+    }
+
+    .boxLogo{
+        width: 80%;
+        h1{
+            font-size: 25px;
+        }
+        img{
+            width: 70px;
+        }
+    }
+
+    .boxMenu{
+        width: 100%;
+        ul{
+            justify-content: space-evenly;
+            font-size: 21px;
         }
     }
 }
