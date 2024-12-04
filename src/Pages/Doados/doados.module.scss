@@ -23,3 +23,31 @@
     border-radius: 15px;
    }
 }
+
+@media(max-width: 1000px){
+    .boxDoados{
+        justify-content: space-around;
+        
+    }
+
+    .boxBooks{
+        
+        article{
+            width: 200px;
+            height: 230px;
+        }
+    }
+}
+
+@media(max-width: 520px){
+    .boxBooks{
+        flex-wrap: wrap;
+        gap: 10px;
+        height: auto;
+    }
+
+    .boxDoados{
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
