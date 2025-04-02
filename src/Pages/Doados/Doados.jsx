@@ -27,12 +27,7 @@ export default function Doados() {
             <h2>Livros Doados</h2>
             <section className={S.boxBooks}>
                 {/* Livro fixo */}
-                <article>
-                    <img src={livro} alt="imagem do livro o protagonista" />
-                    <h3>O Protagonista</h3>
-                    <p>Susanne Andrade</p>
-                    <p>Ficção</p>
-                </article>
+               
                 
                 {/* Renderização dos livros recebidos da API */}
                 {livros.map((item) => (

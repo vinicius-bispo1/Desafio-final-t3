@@ -1,17 +1,28 @@
 
 .boxDoados{
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    
+    margin-bottom: 30px;
+    h2{
+        
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
 }
 
 .boxBooks{
    width: 85vw;
-   height: 60vh;
+   min-height: 60vh;
    display: flex;
    justify-content: space-evenly;
+   flex-wrap: wrap;
+   gap: 10px;
+   
    article{
     border: solid 2px #005695;
     width: 15vw;
